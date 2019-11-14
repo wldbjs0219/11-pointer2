@@ -3,11 +3,11 @@
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
-char *proverb="All that gliters is not gold";
+char *proverb="All that gliters is not gold";  //왜 포인터
 
 void setPointer(char **q)
 {
-	q = proverb;
+	*q = proverb;
 }
 
 
